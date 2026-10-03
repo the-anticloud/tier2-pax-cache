@@ -41,14 +41,16 @@ Detected stack: docs-only
 
 **NOT MEASURED.** No results file in this project carries both a value and run provenance (commit or date), so no benchmark number is claimed here. This is deliberate: Anticloud FZ LLE does not publish unmeasured scores.
 
-### Recorded metric status
+### Metric ledger status
+
+Rebuilt from this project's own metric ledger. Documented-but-unverified figures are deliberately dropped; nothing below is inferred.
 
 ```csv
-metric,measured,documented,status
-TRL,NOT-MEASURED,7/9 stale,measured wins
-tok/s,NOT-MEASURED,97.3 stale,corrected
-NIST,,varies,per-suite JSON
-license,Apache-2.0 + Enterprise dual,mixed,normalized
+metric,status,note
+TRL,NOT-MEASURED,no verified run recorded
+tok/s,NOT-MEASURED,no verified run recorded
+NIST,NOT-MEASURED,no verified run recorded
+license,MEASURED(Apache-2.0 + Enterprise dual),reported by project metric ledger
 ```
 
 ## Millennium problem proposals

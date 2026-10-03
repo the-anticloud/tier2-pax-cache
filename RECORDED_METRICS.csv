@@ -1,5 +1,5 @@
-metric,measured,documented,status
-TRL,NOT-MEASURED,7/9 stale,measured wins
-tok/s,NOT-MEASURED,97.3 stale,corrected
-NIST,,varies,per-suite JSON
-license,Apache-2.0 + Enterprise dual,mixed,normalized
+metric,status,note
+TRL,NOT-MEASURED,no verified run recorded
+tok/s,NOT-MEASURED,no verified run recorded
+NIST,NOT-MEASURED,no verified run recorded
+license,MEASURED(Apache-2.0 + Enterprise dual),reported by project metric ledger
